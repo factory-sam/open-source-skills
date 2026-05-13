@@ -1,6 +1,6 @@
 # Open Source Skills
 
-A collection of open-source [Factory](https://factory.ai) skills for use with Droid.
+A collection of open-source [Factory](https://factory.ai) skills and droids for use with Droid. Distributed as a Factory plugin.
 
 ## Skills
 
@@ -34,9 +34,26 @@ Analyzes COBOL mainframe applications for modernization. Performs static analysi
 - **Business Rule Extraction** -- Conditional logic, computational rules, validation rules
 - **Modernization Blockers** -- GOTO/ALTER, PERFORM THRU, inline SORT/MERGE
 
-## Usage
+## Installation
 
-Clone this repo into your project's `.factory/skills/` directory, or point your Factory config at it as a skill source.
+### As a plugin (recommended)
+
+Add this repo as a marketplace, then install the plugin:
+
+```bash
+droid plugin marketplace add https://github.com/factory-sam/open-source-skills
+droid plugin install open-source-skills@open-source-skills
+```
+
+Or use the interactive plugin manager:
+
+```
+/plugins
+```
+
+### Manual
+
+Clone this repo and copy the `skills/` and `droids/` directories into your project's `.factory/` directory.
 
 ## License
 
