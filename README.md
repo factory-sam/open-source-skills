@@ -17,6 +17,23 @@ Convert COBOL mainframe applications to modern Java following mainframe moderniz
 - **Scripts** -- COBOL analysis and test data generation
 - **Templates** -- Controller, service, and repository Java templates
 
+## Droids
+
+### COBOL Analyzer
+
+Analyzes COBOL mainframe applications for modernization. Performs static analysis of programs, copybooks, CICS transactions, VSAM operations, and embedded SQL. Extracts dependencies, business rules, and quality metrics. Identifies modernization blockers and generates migration roadmaps.
+
+**Capabilities:**
+
+- **Program Metrics** -- Cyclomatic complexity, dead code detection, maintainability scoring
+- **Dependency Mapping** -- Copybooks, CALL targets, file references, CICS transaction relationships
+- **CICS Command Analysis** -- Terminal I/O, file I/O, program control, resource control
+- **VSAM File Operations** -- Dataset organization, key structures, access patterns
+- **DB2/SQL Analysis** -- Embedded SQL, cursors, host variables, dynamic SQL
+- **Data Structure Analysis** -- REDEFINES, OCCURS, COMP-3, nested structures
+- **Business Rule Extraction** -- Conditional logic, computational rules, validation rules
+- **Modernization Blockers** -- GOTO/ALTER, PERFORM THRU, inline SORT/MERGE
+
 ## Usage
 
 Clone this repo into your project's `.factory/skills/` directory, or point your Factory config at it as a skill source.
