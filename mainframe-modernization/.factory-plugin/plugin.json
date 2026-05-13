@@ -1,0 +1,8 @@
+{
+  "name": "mainframe-modernization",
+  "description": "COBOL-to-Java conversion skill and COBOL analyzer droid for mainframe modernization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Factory"
+  }
+}

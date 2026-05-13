@@ -42,7 +42,7 @@ Add this repo as a marketplace, then install the plugin:
 
 ```bash
 droid plugin marketplace add https://github.com/factory-sam/open-source-skills
-droid plugin install open-source-skills@open-source-skills
+droid plugin install mainframe-modernization@open-source-skills
 ```
 
 Or use the interactive plugin manager:
@@ -53,7 +53,7 @@ Or use the interactive plugin manager:
 
 ### Manual
 
-Clone this repo and copy the `skills/` and `droids/` directories into your project's `.factory/` directory.
+Clone this repo and copy the contents of `mainframe-modernization/skills/` and `mainframe-modernization/droids/` into your project's `.factory/` directory.
 
 ## License
 

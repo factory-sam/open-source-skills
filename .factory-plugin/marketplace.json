@@ -1,0 +1,14 @@
+{
+  "name": "open-source-skills",
+  "description": "A collection of open-source Factory skills and droids",
+  "owner": {
+    "name": "Factory"
+  },
+  "plugins": [
+    {
+      "name": "mainframe-modernization",
+      "description": "COBOL-to-Java conversion skill and COBOL analyzer droid for mainframe modernization.",
+      "source": "./mainframe-modernization"
+    }
+  ]
+}

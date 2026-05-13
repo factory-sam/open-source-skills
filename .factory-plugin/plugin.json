@@ -1,8 +1,0 @@
-{
-  "name": "open-source-skills",
-  "description": "A collection of open-source Factory skills and droids for mainframe modernization, including COBOL-to-Java conversion and COBOL program analysis.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Factory"
-  }
-}
